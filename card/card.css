@@ -1,0 +1,127 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header {
+  background-color: #24252a;
+  display: flex;
+  color: white;
+  height: 60px;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: none;
+}
+.one {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: none;
+}
+a {
+  text-decoration: none;
+  color: #ecdddd;
+  min-width: none;
+  transition: all 1s;
+}
+.rounded-button {
+  border-radius: 20px;
+  padding: 6px 20px;
+  border: none;
+  background-color: rgb(37, 0, 224);
+  min-width: none;
+  color: white;
+}
+samp {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  min-width: none;
+  color: red;
+}
+h2 {
+  min-width: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style:hover {
+  background-color: yellow;
+  transform: scale(1.5) skew(2deg);
+  color: black;
+  min-width: none;
+  padding: 5px;
+}
+.active {
+  background-color: hwb(0 0% 0%);
+  border: 1px solid black;
+  min-width: none;
+  padding: 5px;
+}
+.main {
+  border: 2px solid blue;
+  width: 400px;
+  border: transparent;
+  background-color: white;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  min-width: none;
+  border-radius: 20px;
+}
+img {
+  width: 100%;
+  min-width: none;
+  height: 250px;
+}
+button {
+  border-radius: 20px;
+  padding: 2px 8px;
+  background-color: rgb(46, 175, 218);
+  min-width: none;
+  color: white;
+}
+.text {
+  min-width: none;
+  margin: 15px;
+}
+.image {
+  width: 40px;
+  min-width: none;
+  height: 40px;
+}
+.last {
+  min-width: none;
+  display: flex;
+}
+span {
+  font-size: large;
+  font-weight: 100;
+  font-style: italic;
+  min-width: none;
+  color: gray;
+}
+.bold {
+  font-size: larger;
+  min-width: none;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  min-width: none;
+}
+.card {
+  margin: 40px;
+  display: flex;
+  min-width: none;
+  justify-content: space-between;
+}
+.brown {
+  background-color: rgb(241, 175, 89);
+}
+.red {
+  min-width: none;
+  background-color: red;
+}
+body {
+  min-width: none;
+  background-color: aqua;
+}
